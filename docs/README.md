@@ -62,7 +62,7 @@ Each project has clearly defined roles with specific responsibilities and commun
 - Receive regular updates on project progress
 - Communicate downstream impacts to their teams
 
-[Learn more about roles and communication patterns →](octoacme-roles-and-personas.md)
+[Learn more about roles, responsibilities, and communication →](octoacme-roles-and-personas.md)
 
 ## Project Lifecycle
 

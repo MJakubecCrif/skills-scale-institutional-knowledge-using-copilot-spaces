@@ -1,6 +1,19 @@
 # OctoAcme Project Management Documentation
 
+> Related to [Issue #4](https://github.com/MJakubecCrif/skills-scale-institutional-knowledge-using-copilot-spaces/issues/4)
+
 Welcome to the OctoAcme Project Management documentation! This guide provides an overview of how OctoAcme runs projects, including our workflows, roles, communication practices, and quality standards.
+
+## Recent Improvements
+
+This documentation has been enhanced with:
+- **Expanded role definitions** with clear communication patterns and escalation paths
+- **Comprehensive risk management** framework with templates and tracking methods
+- **Detailed checklists** for execution, release, and retrospectives
+- **Ready-to-use templates** for status updates, release notes, and action items
+- **Best practices guidance** throughout all phases of project delivery
+
+See the [Templates and Checklists](#templates-and-checklists-available) section for a complete list of available resources.
 
 ## Overview
 
@@ -16,11 +29,14 @@ OctoAcme follows a structured yet flexible approach to project management that e
 
 ## Key Roles and Responsibilities
 
+Each project has clearly defined roles with specific responsibilities and communication patterns.
+
 ### Project Manager (PM)
 - Coordinates delivery, schedules, risk, and communications
 - Manages project plans, timelines, and resource constraints
 - Facilitates meetings (kickoff, planning, retrospectives)
 - Ensures transparent project documentation and status reporting
+- Escalates blockers and dependencies appropriately
 
 ### Product Manager (PdM)
 - Defines outcomes, prioritizes backlog, and measures success
@@ -33,17 +49,20 @@ OctoAcme follows a structured yet flexible approach to project management that e
 - Write and maintain tests and documentation
 - Participate in design and code reviews
 - Help estimate work and identify technical risks
+- Raise blockers and dependencies early
 
 ### QA/Testing
 - Validate quality and acceptance criteria
 - Ensure comprehensive test coverage
 - Conduct manual testing when needed
+- Advocate for quality throughout development
 
 ### Stakeholders
 - Provide inputs, requirements, and approvals
 - Receive regular updates on project progress
+- Communicate downstream impacts to their teams
 
-[Learn more about roles →](octoacme-roles-and-personas.md)
+[Learn more about roles, responsibilities, and communication →](octoacme-roles-and-personas.md)
 
 ## Project Lifecycle
 
@@ -85,6 +104,12 @@ Day-to-day execution and progress tracking toward milestones.
 - Automated tests and linting in CI
 - At least one approval before merging
 
+**Key resources:**
+- Comprehensive execution checklists for sprint/iteration management
+- PR workflow and best practices
+- Testing strategy and quality gates
+- Definition of Done template
+
 [Learn more about Execution & Tracking →](octoacme-execution-and-tracking.md)
 
 ### 4. Release & Deployment
@@ -101,6 +126,13 @@ Standardized release process to reduce risk and improve observability.
 - Release notes drafted
 - Rollback plan documented
 
+**Key resources:**
+- Comprehensive pre-release checklist
+- Detailed deployment checklist with timeline
+- Rollback and incident response procedures
+- Release notes template
+- DORA metrics tracking
+
 [Learn more about Release & Deployment →](octoacme-release-and-deployment.md)
 
 ### 5. Retrospective & Continuous Improvement
@@ -111,6 +143,14 @@ Capture learnings and convert them into actionable improvements.
 - What could be improved
 - Action items (owner, due date)
 - Follow-up on previous action items
+
+**Key resources:**
+- Multiple retrospective formats to keep sessions engaging
+- Action item template with success criteria
+- Tracking methods (GitHub issues, project board, docs)
+- Weekly review process for action items
+- Retrospective notes template
+- Guidance on measuring improvement impact
 
 [Learn more about Retrospectives →](octoacme-retrospective-and-continuous-improvement.md)
 
@@ -130,9 +170,16 @@ Weekly status template includes:
 - Ask / decisions needed
 
 ### Escalation Paths
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
-- Level 3: Sponsor-level escalation for business-impacting issues
+Clear escalation ensures blockers are addressed at the appropriate level:
+- **Level 1**: Team-level triage in daily standup
+- **Level 2**: PM escalates to Product Lead and dependent teams
+- **Level 3**: Sponsor-level escalation for business-impacting issues
+
+**Key resources:**
+- Detailed escalation process with examples
+- Communication templates (weekly status, stakeholder updates, incident reports)
+- Stakeholder identification and planning guidance
+- Dependency management framework
 
 [Learn more about Communication & Risk Management →](octoacme-risks-and-communication.md)
 
@@ -174,8 +221,8 @@ Throughout the project lifecycle, we maintain these important documents:
 
 We proactively identify and manage risks throughout the project:
 
-- **Identify**: During planning and ongoing execution
-- **Assess**: Estimate impact and likelihood
+- **Identify**: During planning and ongoing execution (weekly reviews)
+- **Assess**: Estimate impact and likelihood using defined criteria
 - **Mitigate**: Reduce via actions and contingency plans
 - **Monitor**: Review at weekly syncs and update status
 
@@ -183,9 +230,44 @@ Risk Register includes:
 - ID, Description, Impact (High/Med/Low), Likelihood (High/Med/Low)
 - Owner, Mitigation plan, Status
 
+**Key resources:**
+- Risk Register template with examples
+- Risk lifecycle process with detailed criteria
+- Common risk categories and identification methods
+- Mitigation strategies and approaches
+- Weekly risk review checklist
+
 [Learn more about Risk Management →](octoacme-risks-and-communication.md)
 
 ## Getting Started
+
+### Templates and Checklists Available
+
+This documentation includes ready-to-use templates and checklists for:
+
+**Planning & Execution:**
+- Project One-pager template (in [Project Initiation](octoacme-project-initiation.md))
+- Sprint/iteration checklists (in [Execution & Tracking](octoacme-execution-and-tracking.md))
+- Definition of Done template (in [Execution & Tracking](octoacme-execution-and-tracking.md))
+- Pull request template (in [Execution & Tracking](octoacme-execution-and-tracking.md))
+
+**Communication & Risk:**
+- Risk Register template (in [Risk Management](octoacme-risks-and-communication.md))
+- Weekly status update template (in [Risk Management](octoacme-risks-and-communication.md))
+- Stakeholder update email template (in [Risk Management](octoacme-risks-and-communication.md))
+- Incident communication template (in [Risk Management](octoacme-risks-and-communication.md))
+- Dependency tracking template (in [Risk Management](octoacme-risks-and-communication.md))
+
+**Release & Deployment:**
+- Pre-release requirements checklist (in [Release & Deployment](octoacme-release-and-deployment.md))
+- Comprehensive deployment checklist (in [Release & Deployment](octoacme-release-and-deployment.md))
+- Release notes template (in [Release & Deployment](octoacme-release-and-deployment.md))
+- Rollback procedure (in [Release & Deployment](octoacme-release-and-deployment.md))
+
+**Continuous Improvement:**
+- Retrospective notes template (in [Retrospectives](octoacme-retrospective-and-continuous-improvement.md))
+- Action item template with success criteria (in [Retrospectives](octoacme-retrospective-and-continuous-improvement.md))
+- Multiple retrospective formats (in [Retrospectives](octoacme-retrospective-and-continuous-improvement.md))
 
 ### For New Team Members
 1. Review this README to understand our overall approach
